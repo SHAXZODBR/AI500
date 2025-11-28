@@ -4860,54 +4860,58 @@ function TeamSection() {
     const { t, language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$i18n$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLanguage"])();
     const teamMembers = [
         {
-            name: "Shaxzod Batirjonov",
+            name: {
+                en: "Shaxzod Batirjonov",
+                uz: "Shaxzod Batirjonov",
+                ru: "Шахзод Батиржонов"
+            },
             role: {
-                en: "CEO / AI Architect",
-                uz: "CEO / AI Arxitektori",
-                ru: "CEO / ИИ Архитектор"
+                en: "AI Tech Lead",
+                uz: "AI Texnik Yetakchi",
+                ru: "AI Технический Лид"
             },
             whyEssential: {
-                en: "5+ years of AI modeling, financial analysis, product strategy. Leads AI direction and overall vision.",
-                uz: "5+ yillik AI modellashtirish, moliyaviy tahlil, mahsulot strategiyasi. AI yo'nalishi va umumiy vizyonni boshqaradi.",
-                ru: "5+ лет в ИИ-моделировании, финансовом анализе, продуктовой стратегии. Руководит направлением ИИ и общим видением."
+                en: "Software Engineer at neuesleben.uz, experience in AI modeling, data analytics, and web engineering.",
+                uz: "neuesleben.uz kompaniyasida dasturiy ta’minot muhandisi. AI modellashtirish, ma’lumotlar tahlili va zamonaviy veb-dasturlash tajribasiga ega.",
+                ru: "Инженер-программист в компании neuesleben.uz с опытом в AI-моделировании, анализе данных и современной веб-разработке."
             },
             skills: [
                 "ML/AI",
-                "Financial Analysis",
-                "Product Strategy"
+                "Software Engineering",
+                "Product Development"
             ],
-            linkedin: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/shaxzodbr/",
+            github: "https://github.com/SHAXZODBR"
         },
         {
             name: {
-                en: "Team Member 2",
-                uz: "Jamoa a'zosi 2",
-                ru: "Член команды 2"
+                en: "Tursinbek Aytbaev",
+                uz: "Tursinbek Aytbaev",
+                ru: "Турсинбек Айтбаев"
             },
             role: {
-                en: "Backend / Data Engineer",
-                uz: "Backend / Data Muhandisi",
-                ru: "Backend / Data Инженер"
+                en: "Backend / ML Engineer",
+                uz: "Backend / ML Muhandisi",
+                ru: "Backend / ML Инженер"
             },
             whyEssential: {
-                en: "Builds the data pipelines and scoring engine. Ensures reliable, real-time data processing.",
-                uz: "Ma'lumotlar quvurlari va baholash tizimini quradi. Ishonchli, real vaqtda ma'lumotlarni qayta ishlashni ta'minlaydi.",
-                ru: "Создаёт пайплайны данных и скоринговый движок. Обеспечивает надёжную обработку данных в реальном времени."
+                en: "Builds backend systems and ensures reliable real-time data processing, supported by strong SQL expertise and solid machine-learning fundamentals",
+                uz: "Backend tizimlarini yaratadi va ishonchli, real vaqtda ma'lumotlarni qayta ishlashni ta'minlaydi. Strong SQL tajribasi va solid machine-learning asoslarida qo'llaniladi.",
+                ru: "Создаёт backend-системы и обеспечивает надёжную обработку данных в реальном времени, поддерживая сильные навыки SQL и прочие основы машинного обучения."
             },
             skills: [
-                "Python",
-                "PostgreSQL",
-                "FastAPI"
+                "Backend",
+                "AI/ML",
+                "SQL"
             ],
-            linkedin: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/tursinbek-aytbaev-573646275/",
+            github: "https://github.com/TursinbekGo"
         },
         {
             name: {
-                en: "Team Member 3",
-                uz: "Jamoa a'zosi 3",
-                ru: "Член команды 3"
+                en: "Suxrob Ergashev",
+                uz: "Suxrob Ergashev",
+                ru: "Сухроб Эргашев"
             },
             role: {
                 en: "Frontend / UX",
@@ -4915,17 +4919,18 @@ function TeamSection() {
                 ru: "Frontend / UX"
             },
             whyEssential: {
-                en: "Creates the user-friendly interface. Makes complex data accessible to beginners.",
-                uz: "Foydalanuvchilarga qulay interfeys yaratadi. Murakkab ma'lumotlarni yangi boshlovchilar uchun ochiq qiladi.",
-                ru: "Создаёт удобный интерфейс. Делает сложные данные доступными для начинающих."
+                en: "Builds ML and deep-learning models for scoring and forecasting. Skilled in data cleaning, visualization, and model development. Created a credit-scoring model for a bank hackathon.",
+                uz: "ML va deep-learning model-larini yaratadi va taqiq va tahsilatni ta'minlaydi. Ma'lumotlarni tashish va vizualizatsiya, va model tashkil etishni biladi. Bank hackathon uchun kredit taqiq modelini yaratishni ta'minlaydi.",
+                ru: "Создаёт ML и deep-learning модели для оценки и прогнозирования. Способен в чистке данных, визуализации и разработке моделей. Создал модель оценки кредита для хакатона банка."
             },
             skills: [
-                "React",
-                "TypeScript",
-                "Tailwind"
+                "ML/AI",
+                "CNN",
+                "Python",
+                "Data Analysis"
             ],
-            linkedin: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/suxrob-ergashev3004/",
+            github: "https://github.com/steve0987-pixel"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
