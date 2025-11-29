@@ -11,7 +11,14 @@ export const metadata: Metadata = {
   title: "AI Index UZ — Smart Investment Analytics for Uzbekistan",
   description:
     "AI-powered platform analyzing Uzbek companies, generating smart indexes, and teaching people how to invest confidently.",
-    generator: 'v0.app'
+  icons: {
+    icon: [
+      { url: '/icon.png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png' },
+    ],
+  },
 }
 
 export default function RootLayout({

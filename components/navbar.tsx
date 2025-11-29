@@ -1,8 +1,9 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Menu, X, TrendingUp } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { useLanguage } from "@/lib/i18n"
 import { LanguageSwitcher } from "@/components/language-switcher"
 
@@ -25,8 +26,14 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
-              <TrendingUp className="w-5 h-5 text-primary-foreground" />
+            <div className="w-12 h-12 rounded-lg overflow-hidden flex items-center justify-center">
+              <Image 
+                src="/SIGN.png" 
+                alt="SIGN Logo" 
+                width={52} 
+                height={52}
+                className="object-contain"
+              />
             </div>
             <span className="font-bold text-lg text-foreground">SIGN</span>
           </div>

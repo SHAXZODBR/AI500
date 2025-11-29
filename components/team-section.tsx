@@ -35,7 +35,7 @@ export function TeamSection() {
     },
     {
       name: { en: "Suxrob Ergashev", uz: "Suxrob Ergashev", ru: "Сухроб Эргашев" },
-      role: { en: "Frontend / UX", uz: "Frontend / UX", ru: "Frontend / UX" },
+      role: { en: "Data Scientist", uz: "Data Scientist", ru: "Data Scientist" },
       whyEssential: {
         en: "Builds ML and deep-learning models for scoring and forecasting. Skilled in data cleaning, visualization, and model development. Created a credit-scoring model for a bank hackathon.",
         uz: "ML va deep-learning model-larini yaratadi va taqiq va tahsilatni ta'minlaydi. Ma'lumotlarni tashish va vizualizatsiya, va model tashkil etishni biladi. Bank hackathon uchun kredit taqiq modelini yaratishni ta'minlaydi.",

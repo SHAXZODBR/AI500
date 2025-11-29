@@ -1,6 +1,7 @@
 "use client"
 
-import { TrendingUp, Shield } from "lucide-react"
+import Image from "next/image"
+import { Shield } from "lucide-react"
 import { useLanguage } from "@/lib/i18n"
 
 export function Footer() {
@@ -11,8 +12,14 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <TrendingUp className="w-4 h-4 text-primary-foreground" />
+            <div className="w-12 h-12 rounded-lg overflow-hidden flex items-center justify-center">
+              <Image 
+                src="/SIGN.png" 
+                alt="SIGN Logo" 
+                width={52} 
+                height={52}
+                className="object-contain"
+              />
             </div>
             <span className="font-bold text-foreground">SIGN</span>
           </div>
@@ -20,7 +27,7 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">{t("footer.platform")}</p>
         </div>
 
-        <div className="mt-6 flex justify-center">
+        <div className="mt-12 flex justify-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-chart-2/10 border border-chart-2/20">
             <Shield className="w-4 h-4 text-chart-2" />
             <span className="text-sm font-medium text-chart-2">{t("footer.safe")}</span>
