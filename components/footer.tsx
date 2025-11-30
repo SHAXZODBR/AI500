@@ -12,12 +12,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-12 h-12 rounded-lg overflow-hidden flex items-center justify-center">
+            <div className="w-10 h-10 flex items-center justify-center">
               <Image 
-                src="/SIGN.png" 
+                src="/logo.png" 
                 alt="SIGN Logo" 
-                width={52} 
-                height={52}
+                width={40} 
+                height={40}
                 className="object-contain"
               />
             </div>

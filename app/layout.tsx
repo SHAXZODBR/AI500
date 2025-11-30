@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     "AI-powered platform analyzing Uzbek companies, generating smart indexes, and teaching people how to invest confidently.",
   icons: {
     icon: [
-      { url: '/icon.png' },
+      { url: '/logo.png' },
     ],
     apple: [
-      { url: '/apple-icon.png' },
+      { url: '/logo.png' },
     ],
   },
 }

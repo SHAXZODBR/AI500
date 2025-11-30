@@ -77,12 +77,12 @@ const metadata = {
     icons: {
         icon: [
             {
-                url: '/icon.png'
+                url: '/logo.png'
             }
         ],
         apple: [
             {
-                url: '/apple-icon.png'
+                url: '/logo.png'
             }
         ]
     }
