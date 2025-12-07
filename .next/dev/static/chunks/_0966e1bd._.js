@@ -267,6 +267,137 @@ const translations = {
         uz: "Har qanday investitsiya savolini bering",
         ru: "Задайте любой инвестиционный вопрос"
     },
+    // Demo Page
+    "demoPage.videoTitle": {
+        en: "Platform Overview",
+        uz: "Platforma Sharhi",
+        ru: "Обзор платформы"
+    },
+    "demoPage.githubTitle": {
+        en: "Initial Database & API Guide",
+        uz: "Boshlang'ich Ma'lumotlar bazasi va API Qo'llanma",
+        ru: "Начальная база данных и руководство по API"
+    },
+    "demoPage.githubDesc": {
+        en: "Access the initial database setup, API documentation, and integration guide",
+        uz: "Boshlang'ich ma'lumotlar bazasi sozlamasi, API hujjatlari va integratsiya qo'llanmasiga kirish",
+        ru: "Доступ к начальной настройке базы данных, документации API и руководству по интеграции"
+    },
+    "demoPage.projectTitle": {
+        en: "Project Description",
+        uz: "Loyiha Tavsifi",
+        ru: "Описание проекта"
+    },
+    "demoPage.projectSubtitle": {
+        en: "SIGN AI Platform - Stock Intelligence & Growth Navigator",
+        uz: "SIGN AI Platformasi - Aktsiyalar Intellekti va O'sish Navigatori",
+        ru: "Платформа SIGN AI - Интеллект акций и навигатор роста"
+    },
+    "demoPage.whatIsShown": {
+        en: "What is Being Shown",
+        uz: "Nima Ko'rsatilmoqda",
+        ru: "Что демонстрируется"
+    },
+    "demoPage.whatIsShownDesc": {
+        en: "SIGN (Stock Intelligence & Growth Navigator) is Uzbekistan's first AI-powered investment intelligence platform that democratizes access to equity market insights.",
+        uz: "SIGN (Stock Intelligence & Growth Navigator) O'zbekistonning aktsiya bozoriga kirish imkoniyatini demokratlashtiruvchi birinchi AI-asosli investitsiya intellekt platformasi.",
+        ru: "SIGN (Stock Intelligence & Growth Navigator) - первая в Узбекистане платформа инвестиционной аналитики на базе ИИ, которая демократизирует доступ к анализу фондового рынка."
+    },
+    "demoPage.liveFeaturesTitle": {
+        en: "Live Features Demonstrated",
+        uz: "Jonli Funksiyalar Namoyishi",
+        ru: "Демонстрируемые функции"
+    },
+    "demoPage.feature1Title": {
+        en: "AI-Powered Company Scoring System",
+        uz: "AI-Asosli Kompaniya Baholash Tizimi",
+        ru: "Система оценки компаний на базе ИИ"
+    },
+    "demoPage.feature1Desc": {
+        en: "Real-time analysis of 50+ financial metrics with 0-100 investment readiness scores and multi-factor evaluation.",
+        uz: "50+ moliyaviy ko'rsatkichlarni real vaqtda tahlil qilish, 0-100 investitsiya tayyorlik ballari va ko'p omilli baholash.",
+        ru: "Анализ более 50 финансовых показателей в реальном времени с оценками готовности к инвестициям 0-100 и многофакторной оценкой."
+    },
+    "demoPage.feature2Title": {
+        en: "Interactive AI Chat Assistant",
+        uz: "Interaktiv AI Chat Yordamchisi",
+        ru: "Интерактивный ИИ-ассистент"
+    },
+    "demoPage.feature2Desc": {
+        en: "Natural language processing for investment questions with RAG system and multi-language support (English, Russian, Uzbek).",
+        uz: "Investitsiya savollari uchun tabiiy til ishlov berish, RAG tizimi va ko'p tillarni qo'llab-quvvatlash (Ingliz, Rus, O'zbek).",
+        ru: "Обработка естественного языка для инвестиционных вопросов с системой RAG и поддержкой нескольких языков (английский, русский, узбекский)."
+    },
+    "demoPage.feature3Title": {
+        en: "National Market Indexes",
+        uz: "Milliy Bozor Indekslari",
+        ru: "Национальные рыночные индексы"
+    },
+    "demoPage.feature3Desc": {
+        en: "SIGN-10, SIGN-20, SIGN-50 tracking top Uzbek companies and sector-specific indexes (Agro, Textile, IT, Energy, Logistics).",
+        uz: "O'zbekistonning yetakchi kompaniyalarini kuzatuvchi SIGN-10, SIGN-20, SIGN-50 va soha bo'yicha indekslar (Agro, Tekstil, IT, Energetika, Logistika).",
+        ru: "Отслеживание топ-компаний Узбекистана через SIGN-10, SIGN-20, SIGN-50 и отраслевые индексы (Агро, Текстиль, IT, Энергетика, Логистика)."
+    },
+    "demoPage.feature4Title": {
+        en: "API Access & Developer Tools",
+        uz: "API Kirish va Dasturchi Vositalari",
+        ru: "Доступ к API и инструменты разработчика"
+    },
+    "demoPage.feature4Desc": {
+        en: "RESTful API endpoints (/api/ask, /api/company-chat) with interactive documentation and testing interface.",
+        uz: "Interaktiv hujjatlar va sinov interfeysi bilan RESTful API so'rovlari (/api/ask, /api/company-chat).",
+        ru: "RESTful API эндпоинты (/api/ask, /api/company-chat) с интерактивной документацией и интерфейсом тестирования."
+    },
+    "demoPage.feature5Title": {
+        en: "Educational Platform",
+        uz: "Ta'lim Platformasi",
+        ru: "Образовательная платформа"
+    },
+    "demoPage.feature5Desc": {
+        en: "Beginner-friendly investment tutorials, interactive tooltips, and financial literacy content tailored for Uzbekistan.",
+        uz: "Yangi boshlanuvchilar uchun investitsiya darsliklari, interaktiv maslahatlar va O'zbekiston uchun moslashtirilgan moliyaviy savodxonlik mazmuni.",
+        ru: "Учебные пособия для начинающих, интерактивные подсказки и контент по финансовой грамотности, адаптированный для Узбекистана."
+    },
+    "demoPage.problemTitle": {
+        en: "Problem & Solution",
+        uz: "Muammo va Yechim",
+        ru: "Проблема и решение"
+    },
+    "demoPage.problemDesc": {
+        en: "Uzbekistan's investment market suffers from information asymmetry, market opacity, language barriers, knowledge gaps, and trust deficit. SIGN addresses all these challenges through AI-powered transparency, democratized access, and localization.",
+        uz: "O'zbekiston investitsiya bozori axborot assimetriyasi, bozor shaffoflik yo'qligi, til to'siqlari, bilim bo'shliqlari va ishonch tanqisligidan aziyat chekmoqda. SIGN AI shaffoflik, demokratlashtirilgan kirish va mahalliylashtirish orqali bu muammolarni hal qiladi.",
+        ru: "Инвестиционный рынок Узбекистана страдает от информационной асимметрии, непрозрачности рынка, языковых барьеров, пробелов в знаниях и дефицита доверия. SIGN решает все эти проблемы через прозрачность на базе ИИ, демократизированный доступ и локализацию."
+    },
+    "demoPage.techStackTitle": {
+        en: "Technology Stack & AI Solutions",
+        uz: "Texnologiya Steki va AI Yechimlari",
+        ru: "Технологический стек и ИИ-решения"
+    },
+    "demoPage.techStackDesc": {
+        en: "Built with Next.js 14, TypeScript, React 18, and powered by Groq AI (llama-3.3-70b-versatile), RAG system with OpenAI embeddings, hybrid AI scoring algorithm, and Supabase backend.",
+        uz: "Next.js 14, TypeScript, React 18 bilan qurilgan va Groq AI (llama-3.3-70b-versatile), OpenAI embeddinglar bilan RAG tizimi, gibrid AI baholash algoritmi va Supabase backend bilan quvvatlantirilgan.",
+        ru: "Построено на Next.js 14, TypeScript, React 18 и работает на Groq AI (llama-3.3-70b-versatile), системе RAG с OpenAI embeddings, гибридном алгоритме оценки ИИ и бэкенде Supabase."
+    },
+    "demoPage.roadmapTitle": {
+        en: "Roadmap & Next Steps",
+        uz: "Yo'l Xaritasi va Keyingi Qadamlar",
+        ru: "Дорожная карта и следующие шаги"
+    },
+    "demoPage.roadmapDesc": {
+        en: "Current stage: MVP completed (December 2025). Next: Private Beta (Q1 2026), Public Launch (Q2 2026), and Regional Expansion (2026-2027).",
+        uz: "Joriy bosqich: MVP yakunlangan (Dekabr 2026). Keyingisi: Xususiy Beta (Q1 2026), Ommaviy Ishga Tushirish (Q2 2026) va Mintaqaviy Kengayish (2026-2027).",
+        ru: "Текущий этап: MVP завершен (декабрь 2026). Далее: Закрытая бета (Q1 2026), Публичный запуск (Q2 2026) и региональная экспансия (2026-2027)."
+    },
+    "demoPage.innovationTitle": {
+        en: "Innovation Highlights",
+        uz: "Innovatsiya Asosiy Jihatlar",
+        ru: "Основные инновации"
+    },
+    "demoPage.innovationDesc": {
+        en: "First mover advantage in Uzbekistan, hybrid AI approach (formulas + LLM), education-first platform, open API ecosystem, true localization, and RAG-powered accuracy.",
+        uz: "O'zbekistonda birinchi harakatchan ustunlik, gibrid AI yondashuv (formulalar + LLM), ta'lim-birinchi platforma, ochiq API ekotizimi, haqiqiy mahalliylashtirish va RAG-asosli aniqlik.",
+        ru: "Преимущество первопроходца в Узбекистане, гибридный подход ИИ (формулы + LLM), образовательная платформа, открытая API-экосистема, настоящая локализация и точность на базе RAG."
+    },
     // Key Features Section
     "features.badge": {
         en: "Key Features",
@@ -416,7 +547,7 @@ function LanguageProvider({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/lib/i18n.tsx",
-        lineNumber: 222,
+        lineNumber: 261,
         columnNumber: 10
     }, this);
 }
