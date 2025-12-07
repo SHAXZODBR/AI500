@@ -53,7 +53,7 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-2">
             <LanguageSwitcher />
             <Button variant="ghost" size="sm" asChild>
-              <a href="#demo">{t("nav.viewDemo")}</a>
+              <a href="/demo">{t("nav.viewDemo")}</a>
             </Button>
             <Button size="sm" asChild>
               <a href="#solution">{t("nav.learnMore")}</a>
@@ -84,7 +84,7 @@ export function Navbar() {
             ))}
             <div className="flex gap-2 pt-2">
               <Button variant="outline" size="sm" className="flex-1 bg-transparent" asChild>
-                <a href="#demo">{t("nav.viewDemo")}</a>
+                <a href="/demo">{t("nav.viewDemo")}</a>
               </Button>
               <Button size="sm" className="flex-1" asChild>
                 <a href="#solution">{t("nav.learnMore")}</a>

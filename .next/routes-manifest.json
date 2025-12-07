@@ -40,16 +40,10 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
-      "page": "/apple-icon.png",
-      "regex": "^/apple\\-icon\\.png(?:/)?$",
+      "page": "/demo",
+      "regex": "^/demo(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/apple\\-icon\\.png(?:/)?$"
-    },
-    {
-      "page": "/icon.png",
-      "regex": "^/icon\\.png(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/icon\\.png(?:/)?$"
+      "namedRegex": "^/demo(?:/)?$"
     }
   ],
   "dataRoutes": [],

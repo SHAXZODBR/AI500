@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/shaxzod/Desktop/AI500",
+    "outputFileTracingRoot": "/home/shaxzod/Desktop/AI/AI500",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -289,11 +289,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "/home/shaxzod/Desktop/AI500"
+      "root": "/home/shaxzod/Desktop/AI/AI500"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/home/shaxzod/Desktop/AI500",
+  "appDir": "/home/shaxzod/Desktop/AI/AI500",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
